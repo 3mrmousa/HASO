@@ -1,0 +1,57 @@
+:root {
+  --primary-background-light: #f7f7f7;
+  --card-background-light: #ffffff;
+  --text-color-dark: #1a1a1a;
+  --text-color-subtle: #808080;
+  --button-background-dark: #000000;
+  --button-text-light: #ffffff;
+
+  --primary-background-dark: #121212;
+  --secondary-background-dark: #212121;
+  --input-background-dark: #333333;
+  --text-color-light: #e0e0e0;
+  --accent-color-dark: #808080;
+}
+
+body {
+  padding-top: 5rem;
+}
+
+nav {
+  background: var(--card-background-light);
+}
+
+.site-logo {
+  height: 2rem;
+  width: auto;
+  margin: 0 10px;
+}
+
+.sm-mid-acc-1,
+.sm-mid-acc-2 {
+  padding: 0rem;
+  border-radius: 1rem;
+}
+
+.sm-mid-acc-1 a {
+  color: var(--button-background-dark);
+}
+
+.sm-mid-acc-2 a {
+  color: var(--button-text-light);
+  background: var(--button-background-dark);
+}
+
+nav .accounts ul li a {
+  border: 0.08rem var(--secondary-background-dark) solid;
+  padding: 0.2rem;
+}
+
+nav .accounts ul li:first-child a {
+  color: var(--button-background-dark);
+}
+
+nav .accounts ul li:last-child a {
+  color: var(--button-text-light);
+  background: var(--button-background-dark);
+}

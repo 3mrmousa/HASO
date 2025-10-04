@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/NavbarStyle.css" />
+    <link rel="stylesheet" href="../css/login-style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top mb-5">
+      <div class="container-fluid">
+        <a href="../index.html"
+          ><img
+            src="../images/HASO.png"
+            alt="Your Website Name Logo"
+            class="site-logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-lg-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/AboutPage.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/PaymentPage.html">Payment</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../html/ShirtsPage.html"
+                    >Shirts & Hoodies</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../html/PantsPage.html"
+                    >Pants</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../html/SneakersPage.html"
+                    >Shoes</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item sm-mid-acc-1">
+              <a class="nav-link btn d-lg-none" href="../html/LoginPage.html"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item sm-mid-acc-2">
+              <a class="nav-link btn d-lg-none" href="../html/SignUpPage.html"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="accounts d-none d-lg-block">
+          <ul class="navbar-nav d-flex gap-2">
+            <li class="nav-item">
+              <a class="nav-link btn" href="../html/LoginPage.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn" href="../html/SignUpPage.html">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="login-box">
+      <h1>Log In to Your Account</h1>
+      <form id="loginForm" novalidate>
+        <div class="form-group">
+          <div class="input-wrapper">
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              autocomplete="email"
+            />
+          </div>
+          <div class="error-message" id="emailError">
+            Please enter a valid email address
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-wrapper">
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              autocomplete="current-password"
+            />
+            <span class="toggle-password" id="togglePassword">
+              <svg
+                id="eyeIcon"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                />
+              </svg>
+            </span>
+          </div>
+          <div class="error-message" id="passwordError">
+            Password must be at least 6 characters
+          </div>
+        </div>
+        <div class="remember-section">
+          <div class="remember-me">
+            <input type="checkbox" id="remember" />
+            <label for="remember">Remember me</label>
+          </div>
+          <button type="submit" class="btn-submit">Log In</button>
+        </div>
+        <div class="signup-link">
+          Don't have any account?
+          <a href="SignUpPage.html"> Create Account</a>
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/login-scipt.js"></script>
+  </body>
+</html>

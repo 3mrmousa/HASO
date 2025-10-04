@@ -1,0 +1,112 @@
+:root {
+  --primary-background-light: #f7f7f7;
+  --card-background-light: #ffffff;
+  --text-color-dark: #1a1a1a;
+  --text-color-subtle: #808080;
+  --button-background-dark: #000000;
+  --button-text-light: #ffffff;
+
+  --primary-background-dark: #121212;
+  --secondary-background-dark: #212121;
+  --input-background-dark: #333333;
+  --text-color-light: #e0e0e0;
+  --accent-color-dark: #808080;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--primary-background-light);
+}
+
+#sections-header {
+  color: var(--button-text-light);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  border: 0.2rem solid black;
+  border-radius: 0 1rem 0 1rem;
+  background: var(--button-background-dark);
+  padding: 0.8rem;
+}
+
+/* ----------------------------------------------- */
+
+section .center-section {
+  background-color: white;
+}
+
+section .center-section p {
+  color: var(--text-color-subtle);
+}
+
+section .center-section a {
+  color: var(--button-text-light);
+  background: var(--button-background-dark);
+}
+
+.hero {
+  margin-bottom: 6rem;
+}
+
+.cards-section .cards .card {
+  background: var(--card-background-light);
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.cards-section .cards .card-body {
+  background: var(--input-background-dark);
+  border-radius: 0 0 1rem 1rem;
+}
+
+.cards-section .cards .card-body p {
+  color: var(--text-color-light);
+}
+
+.cards-section .cards .card-body a {
+  color: var(--button-text-light);
+  background: var(--button-background-dark);
+  border-radius: 0 1rem 0 1rem;
+  padding: 0.5rem 1rem;
+  transition: 0.5s;
+}
+
+.cards-section .cards .card-body a:hover {
+  background: white;
+  color: var(--text-color-dark);
+  transform: scale(1.05);
+  border-radius: 1rem 0 1rem 0;
+}
+
+.cards-section .cards .card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.testimonials-section {
+  background: var(--primary-background-light);
+}
+
+.testimonial-card {
+  background: var(--card-background-light);
+  border-radius: 1rem;
+  box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-text {
+  color: var(--text-color-subtle);
+  font-style: italic !important;
+}
+
