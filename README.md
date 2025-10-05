@@ -47,18 +47,6 @@ It serves as a **responsive e-commerce landing page**, showcasing categories lik
 
 ---
 
-## 📝 How to Run Locally
-
-1. Clone the repo:
-
-   ```bash
-   git clone https://github.com/3mrmousa/HASO.git
-   ```
-2. Open `Home.html` in your browser.
-3. (Optional) Use **Live Server** (VS Code extension) for best experience.
-
----
-
 ## 💡 Future Improvements
 
 * Add dedicated product pages with pricing
