@@ -10,7 +10,7 @@
 
 ## 📖 About
 
-**HASO** is a simple and تجربة (experimental) teenager clothes shop website built as a **team project** using HTML, CSS, Bootstrap, and JavaScript.
+**HASO** is a simple (experimental) teenager clothes shop website built as a **team project** using HTML, CSS, Bootstrap, and JavaScript.
 It serves as a **responsive e-commerce landing page**, showcasing categories like **shirts, pants, and sneakers**.
 
 🌐 **Live Demo:** [HASO Website](https://haso-home-page.vercel.app/)
