@@ -30,7 +30,7 @@ It serves as a **responsive e-commerce landing page**, showcasing categories lik
 
 * **Amr Mousa** – Team Leader
 * Mohamed Hassan
-* Mohamed Shiref
+* Mohamed Sherif
 * Kareen Adel
 * Ziad Mohamed
 
