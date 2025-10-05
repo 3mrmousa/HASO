@@ -1,3 +1,5 @@
+![HASO Screenshot](images/HASO.png)
+
 # 👕 HASO – Teenager Clothes Shop
 
 [![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5\&logoColor=white)](#)
@@ -68,8 +70,7 @@ It serves as a **responsive e-commerce landing page**, showcasing categories lik
 
 ## 📸 Preview
 
-> *Add a screenshot of your homepage here for better visual appeal*
-> ![HASO Screenshot](images/HASO.png)
+![haso homepage](images/haso-homepage.png)
 
 ---
 
